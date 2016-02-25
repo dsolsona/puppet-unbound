@@ -117,6 +117,7 @@ class unbound::params {
   $config_file                = "${confdir}/unbound.conf"
   $control_enable             = false
   $control_port               = 8953
+  $control_interface          = ['::1', '127.0.0.1']
   $control_setup_path         = '/usr/sbin/unbound-control-setup'
   $directory                  = $confdir
   $dlv_anchor_file            = undef

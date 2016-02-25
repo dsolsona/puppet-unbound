@@ -15,6 +15,7 @@ class unbound (
   $config_file                  = $unbound::params::config_file,
   $control_enable               = $unbound::params::control_enable,
   $control_port                 = $unbound::params::control_port,
+  $control_interface            = $unbound::params::control_interface,
   $directory                    = $unbound::params::directory,
   $dlv_anchor_file              = $unbound::params::dlv_anchor_file,
   $do_ip4                       = $unbound::params::do_ip4,
